@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'ProximaNova-Black';    
+    src:    
+      local('ProximaNova-Black'),
+      url('https://nomail.com.ua/files/eot/aa46d234cf405126cdd1c36600e4b978.eot?#iefix') format('embedded-opentype'),
+      url('https://nomail.com.ua/files/woff/aa46d234cf405126cdd1c36600e4b978.woff') format('woff'),
+      url('https://nomail.com.ua/files/woff2/aa46d234cf405126cdd1c36600e4b978.woff2') format('woff2');
+  }
+  
+body {
+  background-color: #070506;
+  background: url(../image/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1060px ;
+  width: 90%;
+  margin: 0 auto;
+}
+.header {
+  padding: 90px 0 0 0;
+  display: flex;
+  align-items: center;  
+}
+.header__logo {
+  margin: 0 70px 0 0;
+}
+.nav__link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0 0 0 15px;
+}
+.hero__subtitle {
+  display: block;
+  margin: 78px 0 0 0;
+  font-size: 40px;
+  line-height: 100%;
+  font-family: 'ProximaNova-Black', sans-serif;
+}
+.hero__title {
+  margin: 5px 0 25px 0;
+  font-size: 64px;
+  line-height: 78px;
+  font-family: 'ProximaNova-Black', sans-serif;
+}
+.hero__text {
+  max-width: 572px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+.hero__premier {
+  display: block;
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  line-height: 150%;
+  color: #B02000;
+}
+.hero__date {
+  display: block;
+  margin: 0 0 46px 0;
+  font-size: 24px;
+  line-height: 150%;
+}
+.button-play {
+  border: none;
+  background: linear-gradient(90deg, #fb641a 0%, #fc3309 100%);
+  border-radius: 300px;
+  color: #ffffff;
+  padding: 25px 80px 25px 34px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.button-play:after {
+  content: "";
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background: #ffffff url('/image/play_button.svg') center no-repeat;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  border: 8px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+}
+
+.button-play:before {
+  content: "";
+  position: absolute;
+  width: 81px;
+  height: 81px;
+  background-color: rgba(255, 255, 255, 0.3);
+  top: -8px;
+  right: -8px;
+  border-radius: 50%;
+ 
+}
+.button-play:focus {
+  outline: none;
+}
